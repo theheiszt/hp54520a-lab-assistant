@@ -1,0 +1,15 @@
+{
+  "raw": "0,1,500,1,1.0E-9,0.0,0,2.0E-3,0.0,0",
+  "meaning": {
+    "format": "0 (ASCII)",
+    "type": "1 (normal/realtime)",
+    "points": 500,
+    "count": 1,
+    "xincrement": 1.0e-9,
+    "xorigin": 0.0,
+    "xreference": 0,
+    "yincrement": 2.0e-3,
+    "yorigin": 0.0,
+    "yreference": 0
+  }
+}
