@@ -1,0 +1,22 @@
+{
+  "node_id": "udoo-key-01",
+  "instrument": "hp54520a",
+  "backend": "prologix_usb",
+  "prologix": {
+    "port": "/dev/ttyUSB0",
+    "gpib_address": 7,
+    "baudrate": 115200,
+    "serial_timeout_sec": 0.5,
+    "write_timeout_sec": 1.0,
+    "read_tmo_ms": 3000,
+    "settle_delay_sec": 0.05
+  },
+  "mqtt": {
+    "host": "192.168.1.50",
+    "port": 1883,
+    "username": "",
+    "password": "",
+    "topic_prefix": "lab/scope/hp54520a"
+  },
+  "poll_interval_sec": 2.0
+}
