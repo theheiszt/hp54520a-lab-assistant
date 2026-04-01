@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local config
+.env
+.env.*
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project runtime artifacts
+*.log
+*.sqlite3
+mqtt-data/
+mosquitto-data/
+mosquitto-log/
+
+# Keep user-specific settings out of git
+udoo_node/config.local.json
+pi_brain/config.local.json
